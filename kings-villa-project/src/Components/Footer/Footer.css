@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', sans-serif;
+}
+
+/* Styling for the black-themed footer */
+.black-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-images img {
+    width: 20%;
+    height: 316px;
+}
+
+.footer-content {
+    height: 50vh;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding-left: 4rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    flex-wrap: wrap;
+}
+
+.item{
+    /* background-color: aqua; */
+    margin-top: 8rem;
+    padding: 1,5rem;
+    width: 25%;
+    align-content: center;
+}
+ box1{
+    text-align: left;
+ }
+
+.footer-social {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+.footer-copyright p {
+    font-size: 14px;
+}
