@@ -27,7 +27,7 @@ body {
     display: flex;
     /* gap: 5em; */
     justify-content: space-between;
-    border: 5px solid lime;
+    /* border: 5px solid lime; */
     margin-bottom: 3em;
 }
 
@@ -40,7 +40,7 @@ body {
 .col > div {
     /* width: 70%; */
     margin: auto;
-    border: 3px solid palevioletred;
+    /* border: 3px solid palevioletred; */
 }
 
 .list_item {
@@ -72,7 +72,7 @@ body {
     position: relative;
     right: 2em;
     display: flex;
-    border: 3px solid gold;
+    /* border: 3px solid gold; */
 }
 
 Iframe {
