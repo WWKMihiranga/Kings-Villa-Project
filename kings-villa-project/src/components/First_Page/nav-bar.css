@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: darkgray;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: rgb(0, 28, 73);
+}
+.brand {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.nav_toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: darkgray;
+}
+.nav_toggler {
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .nav_toggler {
+    display: block;
+  }
+  .navMenu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 50%;
+    height: 93vh;
+    background: rgb(0, 28, 73);
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+}
+.navActive {
+  transform: translateX(0);
+}
