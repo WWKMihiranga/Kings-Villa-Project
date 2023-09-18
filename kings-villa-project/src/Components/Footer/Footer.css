@@ -15,7 +15,7 @@
 
 .footer-images img {
     width: 20%;
-    height: 316px;
+    height: 300px;
 }
 
 .footer-content {
@@ -37,9 +37,6 @@
     width: 25%;
     align-content: center;
 }
- box1{
-    text-align: left;
- }
 
 .footer-social {
     display: flex;
@@ -50,7 +47,7 @@
 .footer-copyright {
     text-align: center;
     margin-top: 20px;
-    padding: 1rem;
+    padding-bottom: 3rem;
 }
 
 .footer-copyright p {
