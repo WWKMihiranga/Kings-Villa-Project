@@ -13,6 +13,7 @@ function TextDisplay() {
 
       <div className="container">
         <div className="col list_item">
+
           <div className="item_set">
             <h3>Nearest Beaches</h3>
             <ul>
@@ -22,6 +23,7 @@ function TextDisplay() {
               <li>Unawatuna Beach - 4km</li>
             </ul>
           </div>
+
           <div className="item_set">
             <h3>Nearest Attraction Places</h3>
             <ul>
@@ -32,6 +34,7 @@ function TextDisplay() {
               <li>Magister Square-2.3 km</li>
             </ul>
           </div>
+
           <div className="item_set">
             <h3>Public Transpotation Places</h3>
             <ul>
@@ -40,6 +43,7 @@ function TextDisplay() {
             </ul>
           </div>
         </div>
+
         <div className="col img_div">
           {/* <img src={MapImage} alt="Map of Galle Subaurb" /> */}
           <Iframe
@@ -52,6 +56,7 @@ function TextDisplay() {
             referrerpolicy="no-referrer-when-downgrade"
           ></Iframe>
         </div>
+        
       </div>
     </>
   );
