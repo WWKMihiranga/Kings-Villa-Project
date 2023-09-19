@@ -14,7 +14,7 @@ function TextDisplay() {
       <div className="container">
         <div className="col list_item">
 
-          {/* <div className="item_set">
+          <div className="item_set">
             <h3>Nearest Beaches</h3>
             <ul>
               <li>Mahamodara Beach - 1.1km</li>
@@ -22,7 +22,7 @@ function TextDisplay() {
               <li>Dadalla Beach - 2.3km</li>
               <li>Unawatuna Beach - 4km</li>
             </ul>
-          </div> */}
+          </div>
 
           <div className="item_set">
             <h3>Nearest Attraction Places</h3>
