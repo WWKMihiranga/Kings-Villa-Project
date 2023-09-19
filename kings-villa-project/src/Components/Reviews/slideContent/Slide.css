@@ -1,0 +1,124 @@
+/* Slide.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+  }  
+
+.slide {
+    background-color: #ffffff;
+    position: relative;
+    max-width: 400px; 
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: "Laila-SemiBold", Helvetica;
+  }
+  
+  .testi {
+    color: #ffc32f;
+    font-size: 18px; 
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 5px 0;
+  }
+  
+  .happy {
+    color: #000000f7;
+    font-size: 32px; 
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  
+  .profile-pic-div {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px 0;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px; 
+    
+  }
+  
+  .quotations {
+    color: #ffc32f;
+    font-size: 3.5em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    position: absolute;
+    bottom: 5px; 
+    right: 6px; 
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  
+  .review {
+    color: #000000f7;
+    font-family: "Laila-SemiBold", Helvetica;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 auto 20px; 
+    max-width: 800px;
+    padding: 0 20px; 
+    text-align: center;
+
+  }
+  
+  .reviewer {
+    color: #000000cc;
+    font-size: 18px; 
+    font-weight: 600;
+    padding: 5px 0 0 0;
+    margin-top: 10px;
+  }
+  
+  .reviewer-info {
+    color: #0000004c;
+    font-size: 18px; 
+    padding: 2px 0 0 0;
+    
+  }
+  
+ /* ------ Star css --------*/
+.star-rating {
+    
+    padding: 12px;
+  }
+  
+  .star {
+    font-size: 20px;
+    color: #ffc32f;
+  }
+  
+  .half-filled {
+    color: #ffc32f;
+    position: relative;
+    display: inline-block;
+    width: 20px; 
+  }
+  /*
+  .half-filled::before {
+    content: '★';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+    color: inherit;
+  }*/
+  
+  .empty {
+    color: #ccc;
+    margin-right: 2px; 
+  }
+  
+ 
