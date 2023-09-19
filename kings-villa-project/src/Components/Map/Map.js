@@ -5,8 +5,6 @@ import MapImage from "./map_image.png";
 import "./map.css";
 
 function TextDisplay() {
-  const items = ["Mahamodara Beach - 1.1km", "Galle Fort Beach - 2.6km", "Dadalla Beach - 2.3km", "Unawatuna Beach - 4km"]
-
   return (
     <>
       <div className="map_section_header">
@@ -19,11 +17,10 @@ function TextDisplay() {
           <div className="item_set">
             <h3>Nearest Beaches</h3>
             <ul>
-            {items.map(items => <li>{items}</li>)}
-              {/* <li>Mahamodara Beach - 1.1km</li>
+              <li>Mahamodara Beach - 1.1km</li>
               <li>Galle Fort Beach - 2.6km</li>
               <li>Dadalla Beach - 2.3km</li>
-              <li>Unawatuna Beach - 4km</li> */}
+              <li>Unawatuna Beach - 4km</li>
             </ul>
           </div>
 
