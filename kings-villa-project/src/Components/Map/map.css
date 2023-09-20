@@ -61,11 +61,11 @@ body {
 .item_set > ul {
     font-size: 1.2em;
     padding: 0 0 0 3.5em;
-
 }
 
 .item_set > ul > li {
     margin-bottom: 10px;
+    list-style: disc;
 }
 
 .img_div {
