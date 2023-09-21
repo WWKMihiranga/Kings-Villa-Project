@@ -55,15 +55,14 @@ export default function Footer() {
                         <p>For reservations call - +94 77 14 55 841
                            <br />Whatsapp - 077 14 55 841</p>
                     </div>   
-                                                                                   
-                    
+
                 </div>
             </div>
 
             <div class="footer-social">
-                <h1><FaFacebookSquare /></h1>
-                <h1> <FaInstagram color='#fff' /></h1>   
-                <h1> <FaYoutube color='#fff' /></h1>   
+                <h1><FaFacebookSquare /><span className='txt'>Follw on Facebook</span></h1>
+                <h1> <FaInstagram color='#fff' /><span className='txt'>Follw on Instagram</span></h1>   
+                <h1> <FaYoutube color='#fff' /><span className='txt'>Follw on You Tube</span></h1>   
                 
             </div>
             
