@@ -5,6 +5,23 @@ import MapImage from "./map_image.png";
 import "./map.css";
 
 function TextDisplay() {
+  const items_1 = [
+    "Mahamodara Beach - 1.1km",
+    "Galle Fort Beach - 2.6km",
+    "Dadalla Beach - 2.3km",
+    "Unawatuna Beach - 4km",
+  ];
+
+  const items_2 = [
+    "Galle fort-2.2km",
+    "Fort museum-2.2km",
+    "Dharmapala park-1.6km",
+    "Galle Fort Clock Tower-2km",
+    "Magister Square-2.3 km",
+  ];
+
+  const items_3 = ["Galle railway station-1.6km", "Galle bus station-1.7km"];
+
   return (
     <>
       <div className="map_section_header">
@@ -13,33 +30,36 @@ function TextDisplay() {
 
       <div className="container">
         <div className="col list_item">
+
           <div className="item_set">
             <h3>Nearest Beaches</h3>
             <ul>
-              <li>Mahamodara Beach - 1.1km</li>
-              <li>Galle Fort Beach - 2.6km</li>
-              <li>Dadalla Beach - 2.3km</li>
-              <li>Unawatuna Beach - 4km</li>
+              {items_1.map((item) => (
+                <li>{item}</li>
+              ))}
             </ul>
           </div>
+
           <div className="item_set">
             <h3>Nearest Attraction Places</h3>
             <ul>
-              <li>Galle fort-2.2km</li>
-              <li>Fort museum-2.2km</li>
-              <li>Dharmapala park-1.6km</li>
-              <li>Galle Fort Clock Tower-2km</li>
-              <li>Magister Square-2.3 km</li>
+              {items_2.map((item) => (
+                <li>{item}</li>
+              ))}
             </ul>
           </div>
+
           <div className="item_set">
             <h3>Public Transpotation Places</h3>
             <ul>
-              <li>Galle railway station-1.6km</li>
-              <li>Galle bus station-1.7km</li>
+              {items_3.map((item) => (
+                <li>{item}</li>
+              ))}
             </ul>
           </div>
+
         </div>
+
         <div className="col img_div">
           {/* <img src={MapImage} alt="Map of Galle Subaurb" /> */}
           <Iframe
@@ -52,6 +72,7 @@ function TextDisplay() {
             referrerpolicy="no-referrer-when-downgrade"
           ></Iframe>
         </div>
+        
       </div>
     </>
   );
