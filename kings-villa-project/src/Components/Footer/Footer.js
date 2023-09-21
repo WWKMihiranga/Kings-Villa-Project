@@ -9,20 +9,20 @@ export default function Footer() {
     <div>
       <div class="black-footer">
         <div class="footer-images">
-          <div className="img_one">
-            <img src="imgs/1.jpg" alt="Image 1" />
+          <div className="each_img">
+            <img src="imgs/1.jpg" alt="Living room view" />
           </div>
-          <div className="img_one">
-            <img src="imgs/2.jpg" alt="Image 2" />
+          <div className="each_img">
+            <img src="imgs/2.jpg" alt="A wooden table view" />
           </div>
-          <div className="img_one">
-            <img src="imgs/3.jpg" alt="Image 3" />
+          <div className="each_img">
+            <img src="imgs/3.jpg" alt="IStaircase view" />
           </div>
-          <div className="img_one">
-            <img src="imgs/4.jpg" alt="Image 4" />
+          <div className="each_img">
+            <img src="imgs/4.jpg" alt="View of inside a room" />
           </div>
-          <div className="img_one">
-            <img src="imgs/5.jpg" alt="Image 5" />
+          <div className="each_img">
+            <img src="imgs/5.jpg" alt="The villa view" />
           </div>
           {/* <img src="imgs/1.jpg" alt="Image 1" />
                 <img src="imgs/2.jpg" alt="Image 2" />
