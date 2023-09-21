@@ -1,11 +1,18 @@
 import React, { useState } from "react";
 import "./nav-bar.css";
+
 export default function First_Page() {
   const [active, setActive] = useState("navMenu");
+  const [toggleIcon, setToggleIcon] = useState("nav_toggler");
   const navToggle = () => {
     active === "navMenu"
       ? setActive("navMenu navActive")
       : setActive("navMenu");
+
+    //TogglerIcon
+    toggleIcon === "nav_toggler"
+      ? setToggleIcon("nav_toggler toggle")
+      : setToggleIcon("nav_toggler");
   };
 
   return (
@@ -35,7 +42,7 @@ export default function First_Page() {
           </a>
         </li>
       </ul>
-      <div onClick={navToggle} className="nav_toggler">
+      <div onClick={navToggle} className={toggleIcon}>
         <div className="line1"></div>
         <div className="line2"></div>
         <div className="line3"></div>
