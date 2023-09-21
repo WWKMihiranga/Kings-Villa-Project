@@ -40,6 +40,7 @@ a {
   height: 0.2rem;
   margin: 0.4rem;
   background: darkgray;
+  transition: 0.4s ease-in;
 }
 .nav_toggler {
   cursor: pointer;
@@ -63,4 +64,15 @@ a {
 }
 .navActive {
   transform: translateX(0);
+}
+
+/*Toggler Icon Animation*/
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
 }
