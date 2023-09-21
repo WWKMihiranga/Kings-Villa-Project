@@ -1,6 +1,11 @@
 *{
     font-family: Laila;
 }
+
+.main_section {
+    margin: 10% 0;
+}
+
 .title{
     font-size: 200%;
     font-weight: 900;
@@ -36,8 +41,9 @@
 .product-box{
 	position: relative;
     width:20%;
+    /* display: inline; */
     
-    float: left;
+    /* float: left; */
     margin: 15px;
     
     border-radius: 15px;
@@ -90,6 +96,8 @@
 }
 
 .product-list{
-    object-fit: cover;
-    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    /* object-fit: cover; */
+    padding: 0 2%;
 }
