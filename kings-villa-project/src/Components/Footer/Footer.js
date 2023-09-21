@@ -7,7 +7,6 @@ import { FaYoutube } from "react-icons/fa";
 export default function Footer() {
   return (
     <div>
-    
       <div class="black-footer">
         <div class="footer-images">
           <div className="each_img">
@@ -62,27 +61,41 @@ export default function Footer() {
               <h2>Email</h2>
               <ul>
                 <li>kingsvillagalle@gmail.com</li>
-              </ul><br />
-                  
+              </ul>
+              <br />
+
               <div className="item box4">
-                  <h2>Telephone</h2>
-                  <p>For reservations call - +94 77 14 55 841
-                     <br />Whatsapp - 077 14 55 841</p>
-              </div>   
-
-                </div>
+                <h2>Telephone</h2>
+                <p>
+                  For reservations call - +94 77 14 55 841
+                  <br />
+                  Whatsapp - 077 14 55 841
+                </p>
+              </div>
             </div>
+          </div>
 
-            <div class="footer-social">
-                <h1><FaFacebookSquare /><span className='txt'>Follw on Facebook</span></h1>
-                <h1> <FaInstagram color='#fff' /><span className='txt'>Follw on Instagram</span></h1>   
-                <h1> <FaYoutube color='#fff' /><span className='txt'>Follw on You Tube</span></h1>   
-            </div>
+          <div class="footer-social">
+            <h1>
+              <FaFacebookSquare />
+              <span className="txt">Follw on Facebook</span>
+            </h1>
+            <h1>
+              {" "}
+              <FaInstagram color="#fff" />
+              <span className="txt">Follw on Instagram</span>
+            </h1>
+            <h1>
+              {" "}
+              <FaYoutube color="#fff" />
+              <span className="txt">Follw on You Tube</span>
+            </h1>
+          </div>
 
           <div class="footer-copyright">
             <p>&copy; 2023 Kings Villa. All rights reserved.</p>
           </div>
-
+        </div>
       </div>
     </div>
   );
