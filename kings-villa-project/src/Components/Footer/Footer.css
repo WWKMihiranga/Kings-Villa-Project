@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@
 }
 
 .footer-content {
-    height: 50vh;
+    height: 40vh;
     /* max-width: 1200px; */
     margin: 0 auto;
     padding-left: 4rem;
@@ -40,8 +40,15 @@
 
 .footer-social {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding: 2rem;
+    margin-left: 3rem;
+}
+
+.txt{
+    font-size: medium;
+    margin-left: 2rem;
 }
 
 .footer-copyright {
