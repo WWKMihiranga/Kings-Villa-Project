@@ -9,6 +9,7 @@ html {
 }
 body {
   font-size: 1.6rem;
+  /* background-image: url(./kingsWilla.jpg); */
 }
 
 li {
@@ -16,14 +17,15 @@ li {
 }
 a {
   text-decoration: none;
-  color: darkgray;
+  color: rgb(248, 243, 243);
+  font-size: 2.5rem;
 }
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 8vh;
-  background: rgb(0, 28, 73);
+  background: transparent;
 }
 .brand {
   text-transform: uppercase;
@@ -46,6 +48,17 @@ a {
   cursor: pointer;
   display: none;
 }
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-top: 400px;
+  padding-left: 50px;
+  color: whitesmoke;
+}
+.headline h1 {
+  font-size: 8rem;
+}
 @media screen and (max-width: 768px) {
   .nav_toggler {
     display: block;
@@ -56,7 +69,7 @@ a {
     right: 0;
     width: 50%;
     height: 93vh;
-    background: rgb(0, 28, 73);
+    background: transparent;
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
@@ -75,4 +88,12 @@ a {
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-4px, -5px);
+}
+
+/* Background image */
+.background-container {
+  background-image: url("./kingsWilla.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
