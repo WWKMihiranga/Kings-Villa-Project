@@ -11,13 +11,14 @@ import CheckIn from "./components/Check-in_Check-out/checkIn";
 function App() {
   return (
     <>
-      <First_Page />     
+      <First_Page /> 
+      <CheckIn />    
       {/* <Map /> */}
       <Map2/>
       <TestimonialCarousel />
       <RoomCategories />
       <Footer />
-      <CheckIn />
+      
       
     </>
   )
