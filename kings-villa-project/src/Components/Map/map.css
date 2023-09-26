@@ -68,6 +68,10 @@ body {
     list-style: disc;
 }
 
+.item_set > ul > li > a {
+    color: black;
+}
+
 .img_div {
     position: relative;
     right: 2em;
